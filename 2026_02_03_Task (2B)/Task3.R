@@ -1,0 +1,6 @@
+name<- readline(prompt="Enter your name: ")
+phone<- readline(prompt="Enter your phone number: ")
+name<-toupper(name)
+phone1<-substring(phone, 1, 3)
+phone2<-substring(phone, 7,10)
+print(paste("Hi,",name, ". A verification code has been sent to ",phone1, "xxxxx", phone2))
